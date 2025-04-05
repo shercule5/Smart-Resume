@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schyler C. Hercules | Smart Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 40px;
+      width: 90%;
+      max-width: 720px;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      animation: fadeIn 1.2s ease;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #00e6e6;
+      text-shadow: 0 0 10px rgba(0, 230, 230, 0.5);
+    }
+
+    h2, h3 {
+      color: #f1f1f1;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      transition: transform 0.2s ease, color 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateX(5px);
+      color: #00e6e6;
+    }
+
+    a {
+      color: #00e6e6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .glass {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="glass">
+    <h1>Schyler C. Hercules</h1>
+    <div class="contact">
+      <p>White Plains, NY</p>
+      <p><a href="mailto:schylerherculess@gmail.com">schylerherculess@gmail.com</a> | +1 (914) 380-9464</p>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <ul>
+      <li>Quick learner</li>
+      <li>Knowledge in Kleopatra & Key Management (Kleopatra, GPG)</li>
+      <li>Skilled in encryption</li>
+      <li>Strong writing & documentation skills</li>
+      <li>Motivated to deliver quality under any condition</li>
+    </ul>
+
+    <h2>Work Experience</h2>
+    <h3>Flex Associate – UPS (White Plains, NY)</h3>
+    <p>February 2022 – Present</p>
+    <h3>Package Handler – UPS (Ossining, NY)</h3>
+    <p>January 2021 – April 2021</p>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor's Degree</strong> – Computer Science (Network & Security)<br>New York Institute of Technology – May 2023</li>
+      <li><strong>Associate in Applied Science (AAS)</strong> – Computer Information Systems<br>SUNY WCC – May 2021</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Writing skills (2+ years)</li>
+      <li>Encryption (Kleopatra, GPG)</li>
+      <li>Network security basics</li>
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+      <li>BOCES Electrical Program – June 2018 to Present</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>📡 Cisco Packet Tracer Projects:</strong><br>
+        Segmented hospital networks, simulated cyber attacks, implemented ACLs, and configured real-world VLAN isolation.<br>
+        <a href="https://github.com/shercule5/Cisco-Projects" target="_blank">View on GitHub</a>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
